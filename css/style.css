@@ -1,0 +1,331 @@
+html {
+	box-sizing: border-box;
+}
+
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+	font-family: 'Manrope', 'Moderustic', 'font', 'sans-serif';
+}
+
+@font-face {
+	font-family: 'Manrope';
+	src: local('Manrope-SemiBold'), url('../fonts/Manrope-SemiBold.woff2') format("woff2");
+	src: local('Manrope-SemiBold'), url('../fonts/Manrope-SemiBold.woff') format("woff");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Manrope';
+	src: local('Manrope-Bold'), url('../fonts/Manrope-Bold.woff2') format("woff2");
+	src: local('Manrope-Bold'), url('../fonts/Manrope-Bold.woff') format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Manrope';
+	src: local('Manrope-Medium'), url('../fonts/Manrope-Medium.woff2') format("woff2");
+	src: local('Manrope-Medium'), url('../fonts/Manrope-Medium.woff') format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Manrope';
+	src: local('Manrope-Regular'), url('../fonts/Manrope-Regular.woff2') format("woff2");
+	src: local('Manrope-Regular'), url('../fonts/Manrope-Regular.woff') format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Manrope';
+	src: local('Manrope-Light'), url('../fonts/Manrope-Light.woff2') format("woff2");
+	src: local('Manrope-Light'), url('../fonts/Manrope-Light.woff') format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Moderustic';
+	src: local('Montserrat-SemiBold'), url('../fonts/Moderustic-SemiBold.woff2') format("woff2");
+	src: local('Montserrat-SemiBold'), url('../fonts/Moderustic-SemiBold.woff') format("woff");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Moderustic';
+	src: local('Montserrat-Bold'), url('../fonts/Moderustic-Bold.woff2') format("woff2");
+	src: local('Montserrat-Bold'), url('../fonts/Moderustic-Bold.woff') format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Moderustic';
+	src: local('Montserrat-Medium'), url('../fonts/Moderustic-Medium.woff2') format("woff2");
+	src: local('Montserrat-Medium'), url('../fonts/Moderustic-Medium.woff') format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+.container {
+	max-width: 1190px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.list-reset{
+	margin: 0;
+	padding: 0;
+	list-style:none;
+}
+
+.text{
+	margin: 0;
+	color: #000;
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.flex{
+	display: flex;
+}
+
+.blue-theme{
+	border-radius: 20px;
+	background: #D1E1FF;
+}
+
+:root{
+	--black:#000;
+	--green:#039660;
+	--blue:#000080;
+}
+
+
+
+
+
+/*header*/
+
+
+
+.header{
+	background: #D1E1FF;
+}
+
+.header__container{
+	align-items: center;
+	padding: 18px 0;
+	margin-bottom: 40px;
+}
+
+.logo-block{
+	margin-right: 65px;
+}
+
+.header__nav{
+	margin-right: auto;
+}
+
+.title {
+	margin: 0;
+	color: #000;
+	font-family: 'Moderustic';
+	font-size: 35px;
+	font-weight: 700;
+}
+
+.subtitle{
+	margin: 0;
+	color: #000;
+	font-family: 'Moderustic';
+	font-size: 40px;
+	font-weight: 500;
+}
+
+.title-text {
+	margin: 0;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.header__link{
+	color: #000;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.header__link-style{
+	position: relative;
+	outline: 2px solid transparent;
+  	outline-offset: 2px;
+  	transition: outline-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.header__link-style::before{
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -5px;
+	height: 2px;
+	width: 100%;
+	background-color: var(--blue);
+	transform: scale(0);
+	transition: transform .3s ease-in-out, background-color .3s ease-in-out;
+  }
+
+  .header__link-style:hover:not(:focus-visible){
+	color: var(--blue);
+  }
+  
+
+.header__link-style:hover:not(:focus-visible)::before{
+	transform: scale(1);
+	
+}
+
+
+.header__link-style:focus-visible{
+	outline-color: var(--blue);
+}
+
+.header__link-style:active:not(:focus-visible){
+	color: var(--green);
+}
+
+.header__link-style:active:not(:focus-visible)::before{
+	transform: scale(1);
+	background-color:var(--green);
+}
+
+.header__link-img{
+	margin-right: 13px;
+}
+
+.header-contacts{
+	max-width: 185px;
+}
+
+.link-style-contact:hover:not(:focus-visible){
+	color: var(--blue);
+}
+
+.link-style-contact:focus-visible{
+	border: 1px solid var(--blue);
+}
+
+.link-style-contact:active:not(:focus-visible){
+	color: var(--green);
+}
+
+.header__list{
+	gap: 25px;
+}
+
+
+/*biomechanics*/
+
+.biomechanics__titel{
+	margin: 0;
+	margin-bottom: 40px;
+	padding: 40px 30px;
+}
+
+.biomechanics__text{
+	margin-bottom: 30px;
+}
+
+
+
+/*slogan*/
+
+.slogan{
+	margin-bottom: 40px;
+}
+
+.slogan__container{
+	justify-content: space-between;
+}
+
+.slogan__title{
+	max-width: 830px;
+	padding: 30px;
+}
+
+/*footer*/
+
+
+.footer__left-block{
+	max-width: 350px;
+	padding:  40px;
+	border-radius: 20px var(--Number, 0px) var(--Number, 0px) 20px;
+	background: #D1E1FF;
+}
+
+
+.footer__title{
+	margin: 0;
+	margin-bottom: 20px;
+	color: #000;
+	font-family: 'Moderustic';
+	font-size: 36px;
+	font-weight: 700;
+}
+
+.footer__link{
+	color: #000;
+	font-family: 'Manrope';
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.footer__link:hover:not(:focus-visible){
+	color: var(--blue);
+}
+
+.footer__link:focus-visible{
+	outline: 2px solid var(--blue);
+}
+
+.footer__link:active:not(:focus-visible){
+	color: var(--green);
+}
+
+.footer__text{
+	margin: 0;
+	color: #000;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.footer__text:not(:last-child){
+	margin-bottom: 30px;
+}
+

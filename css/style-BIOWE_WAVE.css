@@ -1,0 +1,253 @@
+  .subtitle-BIOME-WAVE {
+    margin: 0;
+    margin-bottom: 40px;
+    color: #000;
+    font-family: 'Manrope';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .section-BIOME-WAVE:not(:last-child) {
+    margin-bottom: 60px;
+  }
+
+
+
+  /*target*/
+
+  .target__title {
+    margin: 0;
+    color: #000;
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #000;
+    font-family: 'Manrope';
+    font-size: 48px;
+    font-weight: 700;
+  }
+
+
+  .target__descr {
+    padding: 30px 20px;
+    border: solid 1px #000;
+    color: #000;
+    font-family: 'Moderustic';
+    font-size: 40px;
+    font-weight: 500;
+  }
+
+  .target__text {
+    margin-bottom: 40px;
+  }
+
+
+  /*application*/
+
+
+  .application__text {
+    margin-bottom: 30px;
+  }
+
+
+  .application__list {
+    margin: 0;
+    padding: 0 0 0 50px;
+  }
+
+
+
+
+  /*application-biome*/
+
+
+  .application-biome__text-big {
+    margin: 0;
+    margin-bottom: 40px;
+    padding: 30px 20px;
+    color: #000;
+    font-family: 'Moderustic';
+    font-size: 40px;
+    font-weight: 500;
+  }
+
+  .application-biome__text {
+    margin-bottom: 40px;
+  }
+
+
+  .application-biome__list {
+    margin: 0;
+    margin-bottom: 40px;
+    padding: 0 0 0 30px;
+  }
+
+  .application-biome__item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .application-biome:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+
+  /*specification*/
+
+
+  .name-specification {
+    width: 400px;
+    color: #000;
+    font-family: 'Manrope';
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .descr-specification {
+    max-width: 600px;
+  }
+
+  .specification__item {
+    min-height: 100px;
+  }
+
+
+
+  /*distinctive-characteristic*/
+
+  .distinctive-characteristic_list {
+    margin: 0;
+    padding: 0 0 0 24px;
+  }
+
+  .distinctive-characteristic__item:not(:last-child) {
+    margin-bottom: 40px;
+  }
+
+
+  /*preparation-work__list*/
+
+
+  .preparation-work__list {
+    margin: 0;
+    margin-bottom: 40px;
+  }
+
+  .preparation-work__item:not(:last-child) {
+    margin-bottom: 40px;
+  }
+
+  .preparation-work__text:not(:last-child) {
+    margin-bottom: 40px;
+  }
+
+  .preparation-work__block {
+    padding: 30px 20px;
+    margin-bottom: 40px;
+  }
+
+  .preparation-work__big-text {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+
+  /*working-cuffs*/
+
+  .working-cuffs__block {
+    margin-bottom: 40px;
+  }
+
+  .working-cuffs__block-text {
+    margin-right: auto;
+    max-width: 560px;
+  }
+
+  .working-cuffs__block-img {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .working-cuffs1 {
+    height: 100%;
+  }
+
+  .working-cuffs__title {
+    margin: 0;
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  .working-cuffs__img2,
+  .working-cuffs__img3 {
+    height: 100%;
+  }
+
+  .working-cuffs__subtitle {
+    margin: 0;
+    margin-bottom: 6px;
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .working-cuffs__text-indent {
+    margin-bottom: 20px;
+  }
+
+  .working-cuffs__small-text {
+    color: #000;
+    font-family: 'Manrope';
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  /*back-cuff*/
+
+  .back-cuff {
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .back-cuff__last-text {
+    margin-bottom: 60px;
+  }
+
+
+  /*foot-cuff*/
+
+  .foot-cuff {
+    align-items: center;
+    margin-bottom: 60px;
+  }
+
+
+
+  /*hip-cuff*/
+
+  .hip-cuff {
+    margin-bottom: 60px;
+  }
+
+
+  /*hand-cuffs*/
+
+  .hand-cuffs {
+    margin-bottom: 60px;
+  }
+
+  /*collar-area*/
+
+  .collar-area {
+    margin-bottom: 60px;
+  }
+
+
+  /*abdominal-cuff*/
+
+  .abdominal-cuff__block{
+    padding: 30px 20px;
+    display: inline-block;
+  }

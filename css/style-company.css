@@ -1,0 +1,45 @@
+
+/*company-info*/
+
+.company-info__title{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.company-info__text{
+    margin-bottom: 35px;
+}
+
+.company-info__contacts{
+    
+}
+
+.company-info__link:hover:not(:focus-visible){
+    color: var(--blue);
+}    
+
+.company-info__link:focus-visible{
+    outline: 2px solid var(--blue);
+}
+
+.company-info__link:active:not(:focus-visible){
+    color: var(--green);
+}
+
+
+/*protocols*/
+
+
+.protocols__title{
+    padding: 30px 20px;
+    margin: 0;
+    margin-bottom: 40px;
+    color: #000;
+    font-family: 'Moderustic';
+    font-size: 36px;
+    font-weight: 600;   
+}
+
+.maps{
+    max-width: 880px;
+}

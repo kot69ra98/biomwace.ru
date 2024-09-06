@@ -1,0 +1,290 @@
+@media (max-width: 1150px) {
+
+    /*header*/
+
+    .logo-block {
+        margin-right: 25px;
+    }
+
+    /*footer*/
+
+    iframe {
+        width: 720px;
+    }
+
+
+}
+
+
+@media(max-width: 1054px) {
+
+    .header__container {
+        flex-direction: column;
+    }
+
+    .logo-block {
+        margin-right: auto;
+    }
+
+    .header__nav {
+        margin-right: 0;
+    }
+
+    .header__link {
+        max-width: 85px;
+    }
+
+    .header__list {
+        position: relative;
+    }
+
+    .header-contacts {
+        content: '';
+        position: absolute;
+        right: 22px;
+        top: 28px;
+
+    }
+
+    .title-text {
+        margin-bottom: 20px;
+    }
+
+    .footer__left-block {
+        max-width: max-content;
+        padding: 40px 20px;
+    }
+
+
+    iframe {
+        width: 600px;
+    }
+
+    /*BIOME-WAVE*/
+
+    .specification__item {
+        flex-direction: column;
+        min-height: 100%;
+    }
+
+    .descr-specification {
+        max-width: none;
+    }
+
+    .specification__item:not(:last-child) {
+        margin-bottom: 20px;
+
+    }
+
+    .name-specification {
+        margin-bottom: 6px;
+    }
+
+    .working-cuffs__block {
+        flex-direction: column;
+    }
+
+    .working-cuffs__block-text {
+        max-width: none;
+        margin-bottom: 40px;
+    }
+
+    .working-cuffs__block-img {
+        align-items: center;
+    }
+
+    .back-cuff {
+        flex-direction: column;
+    }
+
+    .foot-cuff {
+        flex-direction: column;
+    }
+
+    .hand-cuffs {
+        flex-direction: column;
+    }
+
+}
+
+
+@media(max-width: 930px) {
+    .hip-cuff {
+        flex-direction: column;
+    }
+
+    iframe {
+        width: 450px
+    }
+}
+
+
+@media(max-width:744px) {
+
+    .container {
+        padding: 0 10px 10px 10px;
+    }
+
+    .header-contacts {
+        top: 9px;
+    }
+
+    .header__link-img {
+        display: none;
+    }
+
+    .title-block {
+        margin-left: 20px;
+    }
+
+    .slogan__container {
+        flex-direction: column;
+    }
+
+    iframe {
+        width: 300px;
+    }
+}
+
+
+@media(max-width:564px) {
+
+    .header__link {
+        font-size: 16px;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+    .subtitle {
+        font-size: 30px;
+    }
+
+    .text {
+        font-size: 20px;
+    }
+
+    .title-text {
+        font-size: 12px;
+    }
+
+    .protocols__title {
+        font-size: 30px;
+    }
+
+    .footer__right-block {
+        display: none;
+    }
+
+    .footer__left-block {
+        border-radius: 20px;
+        max-width: max-content;
+    }
+
+
+    /*BIOME-WAVE*/
+
+    .target__title {
+        font-size: 30px;
+    }
+
+    .target__descr {
+        font-size: 28px;
+    }
+
+    .subtitle-BIOME-WAVE {
+        font-size: 32px;
+    }
+
+    .application-biome__text-big {
+        font-size: 28px;
+    }
+
+    .name-specification {
+        max-width: 260px;
+        font-size: 20px;
+
+    }
+
+    .working-cuffs__small-text {
+        font-size: 16px;
+    }
+
+    .working-cuffs__subtitle {
+        font-size: 22px;
+    }
+}
+
+
+@media(max-width: 440px) {
+
+    .subtitle{
+        font-size: 26px;
+    }
+
+    .header__list{
+        flex-direction: column;
+    }
+    
+    .header-contacts {
+        display: none;
+    }
+
+    .title-block {
+        margin-left: 0;
+    }
+
+    .logo-block {
+        margin-right: 0;
+    }
+}
+
+
+@media(max-width: 330px){
+
+    .protocols__title{
+        font-size: 28px;
+    }
+
+    .slogan__title{
+        padding: 15px;
+    }
+
+    .text{
+        font-size: 16px;
+    }
+
+    .header__list{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .application-biome__text-big{
+        font-size: 20px;
+    }
+
+    .subtitle-BIOME-WAVE{
+        font-size: 28px;
+    }
+
+    .target__descr{
+        font-size: 20px;
+    }
+
+    .application__list{
+        padding: 0 0 0 10px;
+    }
+    
+    .application-biome__list{
+        padding: 0 0 0 10px;
+    }
+
+    .working-cuffs__title{
+        font-size: 28px;
+    }
+
+    .footer__text{
+        font-size: 16px;
+    }
+}
